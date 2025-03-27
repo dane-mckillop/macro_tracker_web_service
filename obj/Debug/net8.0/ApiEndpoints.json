@@ -1,0 +1,142 @@
+[
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "GetAllFoods",
+    "RelativePath": "api/Foods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[macro_tracker_web_service.Models.FoodPer100g, macro_tracker_web_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "CreateFood",
+    "RelativePath": "api/Foods",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "food",
+        "Type": "macro_tracker_web_service.Models.FoodPer100g",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "macro_tracker_web_service.Models.FoodPer100g",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "UpdateFood",
+    "RelativePath": "api/Foods",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "food",
+        "Type": "macro_tracker_web_service.Models.FoodPer100g",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "GetFoodById",
+    "RelativePath": "api/Foods/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "macro_tracker_web_service.Models.FoodPer100g",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "GetFoodByName",
+    "RelativePath": "api/Foods/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "macro_tracker_web_service.Models.FoodPer100g",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "macro_tracker_web_service.Controllers.FoodsController",
+    "Method": "GetFoodBySubstring",
+    "RelativePath": "api/Foods/substring/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[macro_tracker_web_service.Models.FoodPer100g, macro_tracker_web_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
